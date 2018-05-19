@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/libs/utdid4all-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/utdid4all-1.0.4_cf208a67450376b21933eae6168debbb11375856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/libs/sun.misc.BASE64Decoder.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/sun.misc.BASE64Decoder_b915902cc59cf87659dd1f04bbe41d0fb2445c3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/commonLib/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed52e238e089a20d0af655963a2af64aff4a6e68">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/classes_b81fc2f98a75be7789c5c248abb1bebdb61412e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/libs/commons-codec-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/commons-codec-1.3_81708b840b9160606a457f6f75b71599bd487a88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/libs/ksoap2-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="62681b8212ca52278feafec31775fd0cb096d99a">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/ksoap2-3.3.0_64b26484cb370879513a506558d328e8fbf84749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/libs/umeng-analytics-v6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.1_fb67330efc33ff03c97b960dc7a4a9e9b5177fa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/libs/wsdlclient.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d716129b1f423a1709326d5fc1f8bf72d7699ae">
+        <dex dex="/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/pre-dexed/debug/wsdlclient_74d3a6e86d964c03b58d0f77012db4310dbddfa1.jar" />
+    </item>
+
+</items>

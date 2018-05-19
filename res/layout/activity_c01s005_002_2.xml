@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_c01s005_002_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.icomp.Iswtmv10.v01c01.c01s005.c01s005_002_2Activity">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_title_size"
+        android:text="刀具报废"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@color/baseColor"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/tvTitle"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="8">
+        <TextView
+            android:text="请扫描要报废的一体刀标签"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/baseColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_below="@id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:background="@drawable/table_border_c"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.9"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textColor="@color/baseColor"
+                            android:text="材料号"
+                            android:gravity="center"/>
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/baseColor"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/baseColor"
+                            android:text="@string/singleProductCode"
+                            android:gravity="center"/>
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/baseColor"/>
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="操作"
+                            android:textColor="@color/baseColor" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/llContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:id="@+id/tvScan"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border_c"
+            android:text="@string/scan"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/button_textsize"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/baseColor"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:layout_alignParentBottom="true"
+        android:background="@color/baseColor">
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/returnBy"
+            android:textSize="@dimen/text_bottom_size"
+            android:textColor="@android:color/white"
+            android:background="@color/baseColor"/>
+        <View style="@style/BottomLittlePartingLineStyle" />
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/next"
+            android:textSize="@dimen/text_bottom_size"
+            android:textColor="@android:color/white"
+            android:background="@color/baseColor"/>
+
+
+    </LinearLayout>
+</LinearLayout>

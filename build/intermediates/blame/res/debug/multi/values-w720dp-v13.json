@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/D:\\Project\\WorkSpace\\MQ200\\src\\Android\\Iswtmv102\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 76,
+                        "endOffset": 241
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/D:\\beifen\\src\\Android\\Iswtmv102\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 76,
+                        "endOffset": 241
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-w720dp/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 76,
+                        "endOffset": 241
+                    }
+                }
+            }
+        ]
+    }
+]

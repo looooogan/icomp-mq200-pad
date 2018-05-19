@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/C01S017"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <LinearLayout style="@style/MiddleLinerLayoutStyle">
+
+        <TextView
+            android:text="@string/c01s017_000_002"
+            style="@style/TextLeftAndBottom" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TableRow style="TableRowStyle">
+
+                <TextView
+                    android:text="@string/materialNumber"
+                    android:layout_height="50dp"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/singleProductCode"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/actualReturnedQuantity"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/returnedQuantity"
+                    style="@style/TableRowTextViewStyle" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/lv_01"
+            android:layout_width="match_parent"
+            android:layout_weight="6"
+            android:background="@drawable/border_no_radius"
+            android:divider="@color/baseColor"
+            android:dividerHeight="1dp"
+            android:layout_height="0dp"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/returnBy"
+            android:onClick="btnReturn"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/confirm"
+            android:onClick="btnConfirm"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

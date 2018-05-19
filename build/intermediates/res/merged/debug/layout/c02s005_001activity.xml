@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+          <TextView
+              android:id="@+id/c02s005"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:text="@string/C02S005"
+              android:textColor="@color/textColor"
+              android:textSize="25sp"
+              android:background="@color/baseColor"
+              />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewInRelativeLayout17"
+            android:layout_alignLeft="@+id/seekBar1"
+            android:layout_alignRight="@+id/seekBar1"
+            android:layout_marginTop="30dp"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            style="@style/seekBar" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+            android:textColor="@color/baseColor"
+            android:background="@drawable/x_selectshape3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/btnSave"
+            style="@style/buttonStyleTwo"
+            android:layout_alignRight="@+id/seekBar1"
+            android:layout_below="@+id/seekBar1"
+            android:layout_marginTop="101dp"
+            android:text="@string/save"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:background="@drawable/x_selectshape2"
+        android:text="@string/btnReturn"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
+</LinearLayout>

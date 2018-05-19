@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_c01s008_002"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.icomp.Iswtmv10.v01c01.c01s008.c01s008_002Activity">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_title_size"
+
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@color/baseColor"/>
+
+
+
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/baseColor"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:layout_alignParentBottom="true"
+        android:background="@color/baseColor">
+        <Button
+            android:id="@+id/btnGoOn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/keepOn"
+            android:textSize="@dimen/text_bottom_size"
+            android:textColor="@android:color/white"
+            android:background="@color/baseColor"/>
+        <View style="@style/BottomLittlePartingLineStyle" />
+        <Button
+            android:id="@+id/btnComplete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/complete"
+            android:textSize="@dimen/text_bottom_size"
+            android:textColor="@android:color/white"
+            android:background="@color/baseColor"/>
+
+
+    </LinearLayout>
+</LinearLayout>

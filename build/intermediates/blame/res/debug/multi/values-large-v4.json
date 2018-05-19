@@ -1,0 +1,359 @@
+[
+    {
+        "outputFile": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/D:\\beifen\\src\\Android\\Iswtmv102\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 61,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 71,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 60,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 60,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 58,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 58,
+                        "endOffset": 755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 63,
+                    "endOffset": 368
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 873,
+                        "endColumn": 63,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 373,
+                    "endColumn": 54,
+                    "endOffset": 423
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 54,
+                        "endOffset": 988
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-large/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 61,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-large/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 71,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 60,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-large/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 60,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 58,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-large/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 58,
+                        "endOffset": 755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 63,
+                    "endOffset": 368
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-large/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 873,
+                        "endColumn": 63,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 373,
+                    "endColumn": 54,
+                    "endOffset": 423
+                },
+                "from": {
+                    "file": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/values-large/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 54,
+                        "endOffset": 988
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/D:\\Project\\WorkSpace\\MQ200\\src\\Android\\Iswtmv102\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 61,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 71,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 60,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 60,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 58,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 58,
+                        "endOffset": 755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 63,
+                    "endOffset": 368
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 873,
+                        "endColumn": 63,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 373,
+                    "endColumn": 54,
+                    "endOffset": 423
+                },
+                "from": {
+                    "file": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/C:\\Users\\user\\.android\\build-cache\\0f72c5f02dc9d787f56a0bdf68ba0b0752993f5d\\output\\res\\values-large\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 54,
+                        "endOffset": 988
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/x_selectshape2"
+        android:gravity="center"
+        android:text="  卸下专用刀"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="请扫描要卸下的设备"
+            android:textColor="@color/baseColor"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/x_selectshape3"
+            android:gravity="center"
+            android:onClick="scan"
+            android:text="扫描"
+            android:textColor="@color/baseColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:background="@drawable/x_selectshape2"
+        android:gravity="center"
+        android:onClick="cancel"
+        android:text="返回"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
+</LinearLayout>

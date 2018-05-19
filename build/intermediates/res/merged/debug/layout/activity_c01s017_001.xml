@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/C01S017"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <LinearLayout style="@style/MiddleLinerLayoutStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/c01s017_001_006"
+                android:textSize="25sp"
+                android:textColor="@color/baseColor" />
+
+            <TextView
+                android:id="@+id/tv_01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/edittextColor" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TableRow style="TableRowStyle">
+
+                <TextView
+                    android:text="@string/materialNumber"
+                    android:layout_height="50dp"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/singleProductCode"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/actualReturnedQuantity"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/returnedQuantity"
+                    style="@style/TableRowTextViewStyle" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/lv_01"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@drawable/border_no_radius"
+            android:divider="@color/baseColor"
+            android:dividerHeight="1dp"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/returnBy"
+            android:onClick="btnReturn"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/next"
+            android:onClick="btnNext"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

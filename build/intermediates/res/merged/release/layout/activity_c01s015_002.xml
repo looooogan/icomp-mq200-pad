@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/C01S015"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <LinearLayout style="@style/MiddleLinerLayoutStyle">
+
+        <TextView
+            android:text="@string/materialNumber"
+            style="@style/TextLeftAndBottom" />
+
+        <TextView
+            android:id="@+id/tv_01"
+            style="@style/MiddleTestViewStyle" />
+
+        <TextView
+            android:text="@string/c01s015_002_001"
+            style="@style/TextLeftAndBottom" />
+
+        <TextView
+            android:id="@+id/tv_02"
+            style="@style/MiddleTestViewStyle" />
+
+        <TextView
+            android:text="@string/c01s015_002_002"
+            style="@style/TextLeftAndBottom" />
+
+        <EditText
+            android:id="@+id/et_01"
+            android:maxLength="6"
+            android:inputType="number"
+            android:digits="@string/onlyAllowInputNumbers"
+            style="@style/MiddleTestViewStyle" />
+
+        <View
+            android:layout_weight="1.5"
+            style="@style/View_1" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/returnBy"
+            android:onClick="btnReturn"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/confirm"
+            android:onClick="btnConfirm"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

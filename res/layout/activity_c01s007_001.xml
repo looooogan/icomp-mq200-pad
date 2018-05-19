@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/C01S007"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <LinearLayout style="@style/MiddleLinerLayoutStyle">
+
+        <TextView
+            android:text="请输入要找回的单品号"
+            android:layout_weight="2.5"
+            style="@style/MiddleTextPromptStule" />
+
+        <EditText
+            android:id="@+id/et_01"
+            android:hint="@string/c03s002_001_002"
+            android:maxLength="15"
+            android:digits="@string/allowInput"
+            style="@style/MiddleEditTextStyle" />
+
+        <View style="@style/View_1" />
+
+        <Button
+            style="@style/OneButtonStyle"
+            android:onClick="substitution"
+            android:text="置换" />
+
+        <View style="@style/View_1" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/cancel"
+            android:onClick="btnCancel"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/returnBy"
+            android:onClick="btnReturn"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

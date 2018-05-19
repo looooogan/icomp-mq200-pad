@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/logan/pros/icomp/MQ200 2/src/Android/Iswtmv102/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/logan/.android/build-cache/be059ab21804b005190c44a4a260672c4db2c32d/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

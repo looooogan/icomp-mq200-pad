@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_marginTop="20dp"
+        android:gravity="start|center"
+        android:layout_marginLeft="20dp"
+        android:text="@string/materialNumber"
+        android:textSize="20sp"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/etmaterialNumber"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="请输入材料号"
+        android:maxLength="10"
+        android:digits="@string/allowInput"
+        style="@style/MiddleEditTextStyle" />
+
+    <TextView
+        android:id="@+id/tvNum"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="start|center"
+        android:layout_marginLeft="20dp"
+        android:text="数量"
+        android:textSize="20sp"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/etgrindingQuantity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="请输入数量"
+        android:maxLength="6"
+        android:inputType="number"
+        android:digits="@string/onlyAllowInputNumbers"
+        style="@style/MiddleEditTextStyle" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        style="@style/MiddleTwoButtonLinerLayoutStyle">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="@string/cancel"
+            android:textSize="20sp"
+            style="@style/TwoButtonStyle" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:text="@string/confirm"
+            android:textSize="20sp"
+            style="@style/TwoButtonStyle" />
+
+    </LinearLayout>
+
+    </LinearLayout>

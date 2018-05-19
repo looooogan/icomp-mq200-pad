@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/x_selectshape2"
+        android:gravity="center"
+        android:text="卸下专用刀"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                style="@style/MiddleTowTextView"
+                android:text="@string/deviceName" />
+
+            <TextView
+                android:id="@+id/tv_01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/border_2"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:textColor="@color/baseColor"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                style="@style/MiddleTowTextView"
+                android:text="@string/axle" />
+
+            <LinearLayout
+                android:id="@+id/ll_01"
+                style="@style/SpinnerLinerLayoutStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_02"
+                    style="@style/SpinnerViewStyle"
+                    android:layout_weight="3" />
+
+                <ImageView
+                    style="@style/SpinnerImageViewStyle"
+                    android:src="@drawable/arrow" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                style="@style/MiddleTowTextView"
+                android:text="@string/syntheticTool" />
+
+            <LinearLayout
+                android:id="@+id/ll_02"
+                style="@style/SpinnerLinerLayoutStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_03"
+                    style="@style/SpinnerViewStyle"
+                    android:layout_weight="3" />
+
+                <ImageView
+                    style="@style/SpinnerImageViewStyle"
+                    android:src="@drawable/arrow" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/MiddleTowTextView"
+                android:text="@string/c01s013_002_004" />
+
+            <LinearLayout
+                android:id="@+id/ll_04"
+                style="@style/SpinnerLinerLayoutStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_05"
+                    style="@style/SpinnerViewStyle"
+                    android:layout_weight="3"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_06"
+                    style="@style/SpinnerViewStyle"
+                    android:layout_weight="3" />
+
+                <ImageView
+                    style="@style/SpinnerImageViewStyle"
+                    android:src="@drawable/arrow" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                style="@style/MiddleTowTextView"
+                android:text="@string/processingCapacity" />
+
+            <EditText
+                android:id="@+id/et_01"
+                style="@style/MiddleTowTextView"
+                android:layout_weight="2"
+                android:background="@drawable/border"
+                android:hint="加工零部件数量"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingLeft="5dp"
+                android:textSize="20sp" />
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/ll111"-->
+            <!--style="@style/SpinnerLinerLayoutStyle"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="2">-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_01"-->
+            <!--style="@style/SpinnerViewStyle"-->
+            <!--android:layout_weight="3"-->
+            <!--android:background="@null"-->
+            <!--android:inputType="number"-->
+            <!--android:maxLength="10" />-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/im_01"-->
+            <!--style="@style/SpinnerImageViewStyle"-->
+            <!--android:src="@drawable/arrow" />-->
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                style="@style/MiddleTowTextView"
+                android:text="@string/c01s013_002_003" />
+
+            <LinearLayout
+                android:id="@+id/ll_03"
+                style="@style/SpinnerLinerLayoutStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_04"
+                    style="@style/SpinnerViewStyle"
+                    android:layout_weight="3" />
+
+                <ImageView
+                    style="@style/SpinnerImageViewStyle"
+                    android:src="@drawable/arrow" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TwoTextViewStyle"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/MiddleTowTextView"
+                android:text="卸刀数量" />
+
+            <EditText
+                android:id="@+id/et_02"
+                style="@style/MiddleTowTextView"
+                android:layout_weight="2"
+                android:background="@drawable/border"
+                android:hint="卸下刀具数量"
+                android:inputType="number"
+                android:maxLength="2"
+                android:paddingLeft="5dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:background="@drawable/x_selectshape2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/x_selectshape2"
+            android:onClick="appConfirm"
+            android:text="@string/next"
+            android:textColor="@color/textColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/textColor" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/x_selectshape2"
+            android:onClick="cancel"
+            android:text="返回"
+            android:textColor="@color/textColor"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>

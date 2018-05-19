@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/c03s000_002_001"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <TextView
+        android:text="@string/c03s003_002_001"
+        style="@style/SuccessfulTipsTextViewStyle" />
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/keepOn"
+            android:onClick="btnKeepOn"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/complete"
+            android:onClick="btnComplete"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

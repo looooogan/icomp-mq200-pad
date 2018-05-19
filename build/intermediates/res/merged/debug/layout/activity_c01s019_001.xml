@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/C01S019"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <LinearLayout style="@style/MiddleLinerLayoutStyle">
+
+        <TextView
+            android:layout_weight="1.5"
+            android:gravity="start|center"
+            android:text="@string/c01s019_001_001"
+            android:textSize="22sp"
+            style="@style/MiddleTextPromptStule" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TableRow style="TableRowStyle">
+
+                <ImageView
+                    android:id="@+id/iv_01"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/add"
+                    android:layout_gravity="center"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:text="@string/materialNumber"
+                    style="@style/TableRowTextViewStyle" />
+
+                <TextView
+                    android:text="@string/grindingQuantity"
+                    style="@style/TableRowTextViewStyle" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:scrollbars="vertical"
+            android:fadingEdge="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnScan"
+            android:text="@string/scan"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            style="@style/OneButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/returnBy"
+            android:onClick="btnReturn"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/next"
+            android:onClick="btnNext"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

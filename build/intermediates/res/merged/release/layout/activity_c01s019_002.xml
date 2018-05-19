@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OverallSituationLinerLayoutStyle">
+
+    <TextView
+        android:text="@string/C01S019"
+        style="@style/FunctionalTitleTextViewStyle" />
+
+    <LinearLayout style="@style/MiddleLinerLayoutStyle">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TableRow style="@style/TableRowStyle">
+
+                <TextView
+                    style="@style/TableRowTextViewStyle"
+                    android:layout_height="40dp"
+                    android:text="@string/materialNumber" />
+
+                <TextView
+                    style="@style/TableRowTextViewStyle"
+                    android:text="@string/grindingQuantity" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:fadingEdge="vertical"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+        </ScrollView>
+
+        <TextView
+            style="@style/MiddleTextPromptStule"
+            android:layout_weight="1"
+            android:gravity="start|bottom"
+            android:text="选择厂家" />
+
+        <LinearLayout
+            android:id="@+id/ll_02"
+            android:layout_margin="5dp"
+            style="@style/SpinnerLinerLayoutStyle">
+
+            <TextView
+                android:id="@+id/tv_01"
+                style="@style/SpinnerViewStyle" />
+
+            <TextView
+                android:id="@+id/tv_02"
+                android:visibility="gone"
+                style="@style/SpinnerViewStyle" />
+
+            <ImageView
+                android:src="@drawable/arrow"
+                style="@style/SpinnerImageViewStyle" />
+
+        </LinearLayout>
+
+        <View style="@style/View_1" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/BottomLinerLayoutStyle">
+
+        <Button
+            android:text="@string/returnBy"
+            android:onClick="btnReturn"
+            style="@style/BottomButtonStyle" />
+
+        <View style="@style/BottomLittlePartingLineStyle" />
+
+        <Button
+            android:text="@string/confirm"
+            android:onClick="btnConfirm"
+            style="@style/BottomButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
